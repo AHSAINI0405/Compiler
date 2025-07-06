@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Code Compiler</title>
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="editor">
+        <div class="head">
+          <label for="language-select">Choose Language:</label>
+          <select class="languages" id="language-select">
+            <option value="0">Python</option>
+            <option value="4">JavaScript</option>
+            <option value="7">C</option>
+            <option value="77">C++</option>
+            <option value="8">Java</option>
+          </select>
+        </div>
+        <div class="code-area">
+          <div class="line-number">1</div>
+          <textarea class="code" spellcheck="false" placeholder="Write your code here..."></textarea>
+        </div>
+      </div>
+      <h3>Output</h3>
+      <div class="output">Waiting For Output...</div>
+      <button id="compile-btn">Compile</button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
